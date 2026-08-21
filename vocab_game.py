@@ -109,8 +109,8 @@ ans2 = st.text_input(
     "ข้อ 4: use to wake you up `A _ ar_ _ l _ c _`. 🐟",
     value=st.session_state.ans4_val,
 )
-st.session_state.ans1_va3 = ans3
-st.session_state.ans2_va4 = ans4
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
 
 
 # 4. ปุ่มส่งคำตอบ
