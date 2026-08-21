@@ -85,6 +85,16 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
+ans1 = st.text_input(
+    "ข้อ 3: An `c_ _ _ n _ t` that have water in side. 🥥",
+    value=st.session_state.ans3_val,
+)
+ans2 = st.text_input(
+    "ข้อ 4: use to wake you up `A _ ar_ _ l _ c _`. 🐟",
+    value=st.session_state.ans4_val,
+)
+st.session_state.ans1_va3 = ans3
+st.session_state.ans2_va4 = ans4
 
 
 # 4. ปุ่มส่งคำตอบ
